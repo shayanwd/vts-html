@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://db.onlinewebfonts.com/c/3c76d979e72206bc554a1863d96ac5d4?family=Neue+Haas+Grotesk+Text+Pro');
+/* 
+    Font Families Names
+    font-family: 'NeueHaasDisplay';
+    font-family: 'NeueMachina';
+    font-family: "DM Sans", sans-serif;
+*/
+
+@font-face {
+    font-family: "Neue Haas Grotesk Text Pro";
+    src: url("https://db.onlinewebfonts.com/t/3c76d979e72206bc554a1863d96ac5d4.eot");
+    src: url("https://db.onlinewebfonts.com/t/3c76d979e72206bc554a1863d96ac5d4.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/3c76d979e72206bc554a1863d96ac5d4.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/3c76d979e72206bc554a1863d96ac5d4.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/3c76d979e72206bc554a1863d96ac5d4.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/3c76d979e72206bc554a1863d96ac5d4.svg#Neue Haas Grotesk Text Pro")format("svg");
+}
+
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('../fonts/NeueMachina-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('../fonts/NeueMachina-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueMachina';
+    src: url('../fonts/NeueMachina-Ultrabold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/* NeueHaasDisplay Font Family */
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayBoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayRoman.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayRomanItalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayXThin.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayXThinItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayXXThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeueHaasDisplay';
+    src: url('../fonts/NeueHaasDisplayXXThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "NeueHaasDisplay", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+.banner-sec {
+    width: 100%;
+}
+
+.bn-inner {
+    width: 100%;
+    background-color: #FF0000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url(../images/bnn-bg_converted.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 275px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 192px;
+}
+
+.top-text {
+    /* background: gray; */
+    width: 900px;
+    max-width: 100%;
+}
+
+.top-text h1 {
+    color: #fff;
+    font-size: 71px;
+    line-height: 100%;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.top-text h1 b {
+    font-weight: 500;
+    font-family: "Neue Haas Grotesk Text Pro";
+}
+
+.btn-lined {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 0;
+    background: #FF0000;
+    color: #fff;
+    font-family: 'NeueMachina';
+}
+
+.btn-lined::after {
+    content: "";
+    display: block;
+    width: 19px;
+    height: 4px;
+    background-image: url(../images/vtl-01_converted.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+
+.bottom-text {
+    width: 75%;
+    background: hsl(0deg 0% 100% / 1%);
+    max-width: 701px;
+    margin-left: auto;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 60px;
+    margin-top: -70px;
+}
+
+.bottom-text p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    letter-spacing: 0.3px;
+}
+
+.tx-wrap {
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+.bn-swiper {
+    max-width: 1900px;
+    margin: 0 auto;
+    object-fit: inherit;
+}
+
+.brand-swiper .swiper-wrapper {
+    transition-timing-function: linear;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.brand-swiper .swiper-slide {
+    width: fit-content;
+}
+
+.brand-swiper .swiper-slide img {
+    display: block;
+    object-fit: contain;
+    max-height: 33px;
+}
